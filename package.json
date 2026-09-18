@@ -1,0 +1,23 @@
+{
+  "name": "docker-calculator-playwright",
+  "version": "1.0.0",
+  "description": "playwright framework automation to test calculator api",
+  "homepage": "https://github.com/pilchfish/docker-calculator-playwright#readme",
+  "bugs": {
+    "url": "https://github.com/pilchfish/docker-calculator-playwright/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pilchfish/docker-calculator-playwright.git"
+  },
+  "author": "holdsworthr (aka pilchfish)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.1"
+  }
+}
